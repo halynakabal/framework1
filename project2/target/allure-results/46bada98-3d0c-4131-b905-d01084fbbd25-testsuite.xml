@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1468356289171" stop="1468356393453" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>FloriumTest : Browser FireFox[browser=firefox]</name>
+    <title>FloriumTest : Browser FireFox[browser=firefox]</title>
+    <test-cases>
+        <test-case start="1468356317015" stop="1468356324890" status="passed">
+            <name>signIn[florium.testmail.1@gmail.com,floriumtestmail1]</name>
+            <title>Login to Florium</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="leon"/>
+                <label name="thread" value="3812@leon.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1468356368890" stop="1468356392421" status="passed">
+            <name>failSearchFlower[florium.testmail.1@gmail.com,floriumtestmail1]</name>
+            <title>Fail in Florium</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="leon"/>
+                <label name="thread" value="3812@leon.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

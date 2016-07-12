@@ -1,0 +1,37 @@
+{
+  "features" : [ {
+    "title" : "Browser GoogleChrome",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "1944863925e8f86848e3a6cba1bccb1e",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "a87a12252e2ea922",
+        "name" : "searchFlower",
+        "title" : "Search flower in florium",
+        "time" : {
+          "start" : 1467655739510,
+          "stop" : 1467655763890,
+          "duration" : 24380
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

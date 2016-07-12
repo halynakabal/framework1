@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "a87a12252e2ea922",
+    "name" : "searchFlower",
+    "title" : "Search flower in florium",
+    "time" : {
+      "start" : 1467655739510,
+      "stop" : 1467655763890,
+      "duration" : 24380
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FloriumTest" verbose="5" data-provider-thread-count="1">
+    <test name="Browser FireFox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="SearchPion"/>
+            <class name="LoginPageTest"/>
+            <!--<class name="SearchFlowerTest"/>-->
+            <!--<class name="BuyFlowerTest"/>-->
+            <class name="FailSearchFlowerTest"/>
+        </classes>
+    </test>
+    <test name="Browser GoogleChrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <!--<class name="LoginPageTest"/>-->
+            <!--<class name="SearchPion"/>-->
+            <class name="SearchFlowerTest"/>
+            <class name="BuyFlowerTest"/>
+            <!--<class name="FailSearchFlowerTest"/>-->
+        </classes>
+    </test>
+</suite>

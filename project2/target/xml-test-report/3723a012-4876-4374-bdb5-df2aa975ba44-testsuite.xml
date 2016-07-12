@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1467655728652" stop="1467655765546" version="1.4.0">
+    <name>FloriumTest</name>
+    <test-cases>
+        <test-case start="1467655739510" stop="1467655763890" status="passed">
+            <name>searchFlower</name>
+            <title>Search flower in florium</title>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="feature" value="Browser GoogleChrome"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

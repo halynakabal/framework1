@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FloriumTest" duration-ms="93368" started-at="2016-07-11T12:28:58Z" finished-at="2016-07-11T12:30:31Z">
+    <groups>
+    </groups>
+    <test name="Browser FireFox" duration-ms="41398" started-at="2016-07-11T12:28:58Z" finished-at="2016-07-11T12:29:39Z">
+      <class name="FailSearchFlowerTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:FailSearchFlowerTest@3418f857]" name="setup" is-config="true" duration-ms="10195" started-at="2016-07-11T15:29:15Z" finished-at="2016-07-11T15:29:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="failSearchFlower(java.lang.String, java.lang.String)[pri:0, instance:FailSearchFlowerTest@3418f857]" name="failSearchFlower" duration-ms="12622" started-at="2016-07-11T15:29:25Z" data-provider="floriumUser1" finished-at="2016-07-11T15:29:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[florium.testmail.1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[floriumtestmail1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failSearchFlower -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FailSearchFlowerTest@3418f857]" name="tearDown" is-config="true" duration-ms="1033" started-at="2016-07-11T15:29:38Z" finished-at="2016-07-11T15:29:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FailSearchFlowerTest -->
+      <class name="LoginPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:LoginPageTest@3343fb14]" name="setup" is-config="true" duration-ms="11427" started-at="2016-07-11T15:28:58Z" finished-at="2016-07-11T15:29:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:LoginPageTest@3343fb14]" name="signIn" duration-ms="4939" started-at="2016-07-11T15:29:09Z" data-provider="floriumUser1" finished-at="2016-07-11T15:29:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[florium.testmail.1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[floriumtestmail1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LoginPageTest@3343fb14]" name="tearDown" is-config="true" duration-ms="1067" started-at="2016-07-11T15:29:14Z" finished-at="2016-07-11T15:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginPageTest -->
+    </test> <!-- Browser FireFox -->
+    <test name="Browser GoogleChrome" duration-ms="51841" started-at="2016-07-11T12:29:39Z" finished-at="2016-07-11T12:30:31Z">
+      <class name="BuyFlowerTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:BuyFlowerTest@4dd4a6bb]" name="setup" is-config="true" duration-ms="7397" started-at="2016-07-11T15:30:11Z" finished-at="2016-07-11T15:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="buyFlowerWithLogin(java.lang.String, java.lang.String)[pri:0, instance:BuyFlowerTest@4dd4a6bb]" name="buyFlowerWithLogin" duration-ms="11696" started-at="2016-07-11T15:30:18Z" data-provider="floriumUser2" finished-at="2016-07-11T15:30:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mytestjavamail@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyFlowerWithLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BuyFlowerTest@4dd4a6bb]" name="tearDown" is-config="true" duration-ms="1101" started-at="2016-07-11T15:30:30Z" finished-at="2016-07-11T15:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BuyFlowerTest -->
+      <class name="SearchFlowerTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:SearchFlowerTest@5ccfc9f7]" name="setup" is-config="true" duration-ms="6507" started-at="2016-07-11T15:29:39Z" finished-at="2016-07-11T15:29:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchFlower()[pri:0, instance:SearchFlowerTest@5ccfc9f7]" name="searchFlower" duration-ms="24075" started-at="2016-07-11T15:29:46Z" finished-at="2016-07-11T15:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlower -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchFlowerTest@5ccfc9f7]" name="tearDown" is-config="true" duration-ms="1057" started-at="2016-07-11T15:30:10Z" finished-at="2016-07-11T15:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SearchFlowerTest -->
+    </test> <!-- Browser GoogleChrome -->
+  </suite> <!-- FloriumTest -->
+</testng-results>

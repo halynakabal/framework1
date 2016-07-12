@@ -1,0 +1,57 @@
+{
+  "time" : {
+    "start" : 1467655728287,
+    "stop" : 1467655765546,
+    "duration" : 37259
+  },
+  "testSuites" : [ {
+    "uid" : "253e92605a59e1d2",
+    "name" : "FloriumTest",
+    "title" : "Florium test",
+    "time" : {
+      "start" : 1467655728652,
+      "stop" : 1467655765546,
+      "duration" : 36894
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "a87a12252e2ea922",
+      "name" : "searchFlower",
+      "title" : "Search flower in florium",
+      "time" : {
+        "start" : 1467655739510,
+        "stop" : 1467655763890,
+        "duration" : 24380
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "fe243bce1fa46730",
+    "name" : "FloriumTest",
+    "title" : "Florium test",
+    "time" : {
+      "start" : 1467655728287,
+      "stop" : 1467655728306,
+      "duration" : 19
+    },
+    "statistic" : {
+      "total" : 0,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ ]
+  } ]
+}

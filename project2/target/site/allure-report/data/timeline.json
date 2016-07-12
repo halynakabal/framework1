@@ -1,0 +1,53 @@
+{
+  "hosts" : [ {
+    "title" : "DESKTOP-D51MJNQ",
+    "threads" : [ {
+      "title" : "12452@DESKTOP-D51MJNQ.main(1)",
+      "testCases" : [ {
+        "uid" : "2f53bf72db8303c1",
+        "name" : "searchFlower",
+        "title" : "Search flower in florium",
+        "time" : {
+          "start" : 1468240186075,
+          "stop" : 1468240210148,
+          "duration" : 24073
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9a9b0d625d381628",
+        "name" : "buyFlowerWithLogin[mytestjavamail@gmail.com,test123456789]",
+        "title" : "Buy flower in Florium",
+        "time" : {
+          "start" : 1468240218606,
+          "stop" : 1468240230301,
+          "duration" : 11695
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "291712f3b852557d",
+        "name" : "signIn[florium.testmail.1@gmail.com,floriumtestmail1]",
+        "title" : "Login to Florium",
+        "time" : {
+          "start" : 1468240149540,
+          "stop" : 1468240154466,
+          "duration" : 4926
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d6effb9fd56d51e3",
+        "name" : "failSearchFlower[florium.testmail.1@gmail.com,floriumtestmail1]",
+        "title" : "Fail in Florium",
+        "time" : {
+          "start" : 1468240165777,
+          "stop" : 1468240178397,
+          "duration" : 12620
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

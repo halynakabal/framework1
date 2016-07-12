@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [FloriumTest]" data-provider-thread-count="1">
+  <parameter name="browser" value="chrome"/>
+  <test name="Browser FireFox">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="LoginPageTest"/>
+      <class name="FailSearchFlowerTest"/>
+    </classes>
+  </test> <!-- Browser FireFox -->
+  <test name="Browser GoogleChrome">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="SearchFlowerTest"/>
+      <class name="BuyFlowerTest"/>
+    </classes>
+  </test> <!-- Browser GoogleChrome -->
+</suite> <!-- Failed suite [FloriumTest] -->

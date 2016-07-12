@@ -1,0 +1,47 @@
+{
+  "uid" : "9a9b0d625d381628",
+  "name" : "buyFlowerWithLogin[mytestjavamail@gmail.com,test123456789]",
+  "title" : "Buy flower in Florium",
+  "time" : {
+    "start" : 1468240218606,
+    "stop" : 1468240230301,
+    "duration" : 11695
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c19c2255522aa493",
+    "name" : "FloriumTest : Browser GoogleChrome[browser=chrome]",
+    "title" : "FloriumTest : Browser GoogleChrome[browser=chrome]"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "12452@DESKTOP-D51MJNQ.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "FloriumTest : Browser GoogleChrome[browser=chrome]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D51MJNQ"
+  }, {
+    "name" : "suite-name",
+    "value" : "FloriumTest : Browser GoogleChrome[browser=chrome]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

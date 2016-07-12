@@ -1,0 +1,34 @@
+{
+  "uid" : "a87a12252e2ea922",
+  "name" : "searchFlower",
+  "title" : "Search flower in florium",
+  "time" : {
+    "start" : 1467655739510,
+    "stop" : 1467655763890,
+    "duration" : 24380
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "feature",
+    "value" : "Browser GoogleChrome"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}
